@@ -1,0 +1,5 @@
+css code can be indented in three types 
+in element as a attrubute
+with in the html in the style element
+creating seperate in file and linikng in to the html document
+
