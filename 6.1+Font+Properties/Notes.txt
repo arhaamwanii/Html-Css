@@ -9,5 +9,5 @@ FONT TYPE = X , Y , Z
 TEXT-ALIGN = it is used to align text 
     -it is only applicable on text elements
     -using it on a div which conatins both text and non text elements it will only effect text elements
-
+- CHROME DEVLOPER TOOLS - they help you to get stuff done
 
