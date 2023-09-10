@@ -8,3 +8,7 @@ PADDING - PUSH'S BORDER OUT BT THE VALUE
 MARGIN - POSITON OUTSIDE THE BORDER, DISTANCE FROM TWO ELEMENT  
     -this is what the recangular structures in the chrome developer tools represent
     -maring -> border -> padding -> width and height
+
+CONTENT DIV ELEMENT - INVIISIBLE
+    -GROUPS ELEMENTS TOGETHER
+    -
