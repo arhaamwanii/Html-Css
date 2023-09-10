@@ -1,7 +1,10 @@
-each element is Box in of Itslef (WIDTH & HEIGHT)
+EACH element is Box in of Itslef (WIDTH & HEIGHT)
     -it can be changed using the pxx for reffernece 
     -or it can be changed by using %(i,e percent of the screen)
  BODER = 1(THICKESS OF TH LINE IS IS MADE UP OF,Box exands outward), 2(STYLE OF THE BOREDER), 3(COLOUR OF THE BORDER)
     -BORDER WIDTH = UPPER, RIGHT SIDE, LOWER SIDE. LEFT SIDE
     -BORDER-TOP,LEFT,RIGHT,BOTTOM = CAN DO THE SAME THING BUT IT DOES IT INDIVIDUALLY
-PADDING = 
+PADDING - PUSH'S BORDER OUT BT THE VALUE 
+MARGIN - POSITON OUTSIDE THE BORDER, DISTANCE FROM TWO ELEMENT  
+    -this is what the recangular structures in the chrome developer tools represent
+    -maring -> border -> padding -> width and height
