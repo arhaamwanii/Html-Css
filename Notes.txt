@@ -16,7 +16,7 @@ CHROME DEVLOPER TOOLS - they help you to get stuff done(CSS)
 EACH element is Box in of Itslef (WIDTH & HEIGHT)
     -it can be changed using the pxx for reffernece 
     -or it can be changed by using %(i,e percent of the screen)
- BODER = 1(THICKESS OF TH LINE IS IS MADE UP OF,Box exands outward), 2(STYLE OF THE BOREDER), 3(COLOUR OF THE BORDER)
+BODER = 1(THICKESS OF TH LINE IS IS MADE UP OF,Box exands outward), 2(STYLE OF THE BOREDER), 3(COLOUR OF THE BORDER)
     -BORDER WIDTH = UPPER, RIGHT SIDE, LOWER SIDE. LEFT SIDE
     -BORDER-TOP,LEFT,RIGHT,BOTTOM = CAN DO THE SAME THING BUT IT DOES IT INDIVIDUALLY
 PADDING - PUSH'S BORDER OUT BT THE VALUE 
@@ -34,6 +34,12 @@ IN ORDER TO ADD A FAVICON...
 Link it in the tile of the html 
 give it relation as icon (rel="icon")
 then refference it in the to its location in the files(heref="./hello.jpg")
+//doing this much only will also add the favicon 
+adding type attribte, it helps it to be compatible woth other browsers also
+
+
+
+
 
 
 
