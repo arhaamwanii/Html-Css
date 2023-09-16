@@ -1,0 +1,42 @@
+REM = root em, it is used to define its size relative to the root element which is typically html element
+FONT WEIGHT = Boldness or thickness of the Text
+    -it can also be relative to the parent typically using the keywork BOLDER or LIGHTER   
+    -LIGHTER = -100
+    -BOLDER = +100
+FONT TYPE = X , Y , Z 
+    -They are seperated by the commas because they may be present on some devices and not present on some
+    -"" in case of spaces in the name of the font family we simply can writw it in spaces we have to include it in Quiotatiions
+TEXT-ALIGN = it is used to align text 
+    -it is only applicable on text elements
+    -using it on a div which conatins both text and non text elements it will only effect text elements
+CHROME DEVLOPER TOOLS - they help you to get stuff done(CSS) 
+
+
+
+EACH element is Box in of Itslef (WIDTH & HEIGHT)
+    -it can be changed using the pxx for reffernece 
+    -or it can be changed by using %(i,e percent of the screen)
+ BODER = 1(THICKESS OF TH LINE IS IS MADE UP OF,Box exands outward), 2(STYLE OF THE BOREDER), 3(COLOUR OF THE BORDER)
+    -BORDER WIDTH = UPPER, RIGHT SIDE, LOWER SIDE. LEFT SIDE
+    -BORDER-TOP,LEFT,RIGHT,BOTTOM = CAN DO THE SAME THING BUT IT DOES IT INDIVIDUALLY
+PADDING - PUSH'S BORDER OUT BT THE VALUE 
+MARGIN - POSITON OUTSIDE THE BORDER, DISTANCE FROM TWO ELEMENT  
+    -this is what the recangular structures in the chrome developer tools represent
+    -maring -> border -> padding -> width and height
+
+CONTENT DIV ELEMENT - INVIISIBLE
+    -GROUPS ELEMENTS TOGETHER
+
+
+
+
+IN ORDER TO ADD A FAVICON... 
+Link it in the tile of the html 
+give it relation as icon (rel="icon")
+then refference it in the to its location in the files(heref="./hello.jpg")
+
+
+
+
+
+
