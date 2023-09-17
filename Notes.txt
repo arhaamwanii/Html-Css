@@ -38,6 +38,31 @@ then refference it in the to its location in the files(heref="./hello.jpg")
 adding type attribte, it helps it to be compatible woth other browsers also
 
 
+CASCASDING = how are rules applied in css(on a+ single element)
+    
+    -order of rules
+    -FIRST LEVEL= external css -  least priortized 
+    -SECOND LEVEL = internal - 
+    -THIRRD LEVEL = inline - most priortized 
+
+POSITION OF RULE(WHICH IS PZED FIRST)\
+    -the lower down in a cascade a property is the more imporant it is
+    -   color: blue;
+        color: red(this one will be applied)
+
+
+SPECIFICITY(which tagets over other )
+    -ORDER OF SPECIFITY
+        ID(most spcifific) > ATTRIBUTE > CLASS > ELEMENT(least spectfic)
+
+IMPORTANT KEYWORD
+    -where ever you put this keywork it will automatically priortize that attribute over all the othr attributed in the whole document
+    -it dosent matter after this what the origianl specifity of the element was
+
+
+ 
+
+
 
 
 
