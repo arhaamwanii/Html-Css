@@ -59,6 +59,40 @@ IMPORTANT KEYWORD
     -where ever you put this keywork it will automatically priortize that attribute over all the othr attributed in the whole document
     -it dosent matter after this what the origianl specifity of the element was
 
+#css can be added to a bunch of elements together, by grouping them before adding css to them seperated by comma
+#child = one level down(needs to be seperated by space)
+#specifiity = we can target a element first then add class and id for specifity in order to make it target that one specific elment only
+    -(h1.hello#name)      -this means we are targetting element which has a  class name(hello) and a id of(name)
+    -there should be no space in between 
+    -first item should be the element in this case 
+
+
+
+                                                    POSITONING
+
+1. STATIC
+    -default
+    -continious in the flow just, element or div just next to the previous POSITION
+    -adding of different attributes to chnage its position wont do any thing 
+
+2. RELATIVE
+    -realtive to origianl(static)
+    -we can move it relatively
+
+3. ABSOLUTE
+    -relative to most recent anscestor(i.e postion of the most recent ancestor that ancestor should have position set manually) 
+    -if there is no recent ancestor with postion set then it will be with respect to the upper left corner
+    <Z INDEX - Z AXIS>
+        -VERY THIN HAS A "Z AXIS " BY DEFAULT OF ZERO
+        -WE CAN MAKE ONE ELEMENT HOVER OVER THE OTHER ELEMENT
+
+4. FIXED
+    - relative to the top left corner of the webpage
+    -it wil not move when we move/scroll the browser horizontally or vertically
+    -it is fixed on a single point
+
+
+
 
 
 
