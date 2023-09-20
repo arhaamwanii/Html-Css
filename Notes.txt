@@ -142,6 +142,32 @@ NONE
 
 
 
+                                            RESPONSIVE(CSS)
+
+-RESPONSIVE in terms of screen size change when you change a screen size the elements on the screen also change respectvelly
+-manly of 4 types
+    1. MEDIA QUERRY 
+    2.CSS GRID = forms 2d grids
+    3.CSS FLEXBOX = mainly used for one D formation 
+    4.EXTENAL FRAMEWORKS(eg BOOTSTRAP)
+    <FRAME WORK = EXTERNAL>
+
+
+                                            MEDIA QUERRIES
+
+@media (max-width: 600px) {
+   Styles that apply to all media types when the screen width is 600px or narrower 
+}
+
+
+- is basically an if statement for css
+
+<these statement make the page automatically responsive because if oe chnages all the othe will change accordinglly>
+
+
+
+
+
 
 
 
