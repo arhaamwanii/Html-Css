@@ -93,6 +93,33 @@ IMPORTANT KEYWORD
 
 
 
+                                        DISPLAY
+
+appbrewery.github.io/css-display/
+
+1. BLOCK
+    - full width BLOCK it will take the whole horizontal of that element 
+    -next element will go below 
+    - we can change the height and width of the block element 
+
+2.INLINE
+    -it is used to add two  different elements in a single line
+    -are elements that do not start on a new line but instead flow alongside the surrounding content or other inline elements.
+    -you cant change the height and width of the inline display
+
+3.INLINE BLOCK
+    -we can chamge the height and width of the element and can determine how much of the horizontal and vertical space occupied by it
+
+4. NONE
+    -
+
+
+
+
+SPAN ELEMENT - element has display set to inline by default
+            - it is used to add atrribute to  very specific part of the text or something else which is already present in an element
+
+
 
 
 
