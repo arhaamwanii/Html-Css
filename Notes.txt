@@ -113,11 +113,32 @@ appbrewery.github.io/css-display/
 4. NONE
     -
 
-
-
-
 SPAN ELEMENT - element has display set to inline by default
             - it is used to add atrribute to  very specific part of the text or something else which is already present in an element
+
+
+
+                                        FLOAT
+
+You're essentially taking it out of the normal document flow and positioning it to the left or right of its containing element.
+
+LEFT
+    -this pushes the element the left 
+    -rest of the content will flow to the right of the screen 
+
+RIGHT 
+    -this will push the element to the right 
+    -rest of the content will flow towards the right of the screen
+
+NONE 
+    -this is its value by the default i.e it will occupy the whole vertical  row
+
+<>To prevent a element form going with this flow clear property can be used 
+    - clear : left;
+        OR
+    - clear : right;    (left and right)
+
+
 
 
 
