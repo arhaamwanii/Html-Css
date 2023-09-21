@@ -159,8 +159,10 @@ NONE
    Styles that apply to all media types when the screen width is 600px or narrower 
 }
 
-
+- () has the breakpoint to apply the css given  in the{}
 - is basically an if statement for css
+- screen keyoword > only target screen 
+- print keywod > target print settings
 
 <these statement make the page automatically responsive because if oe chnages all the othe will change accordinglly>
 
