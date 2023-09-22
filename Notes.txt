@@ -169,6 +169,17 @@ NONE
 
 
 
+                                                        WEBSITE LAYOUT
+
+table element - <tabel>             should specically be used to create text related categories it should not be used to create layouts
+float = shoud mainly be used to wrap the text around an elemment it should also not be used to create layouts
+
+                                                         FLEXBOX
+
+-display flex ()
+
+
+
 
 
 
