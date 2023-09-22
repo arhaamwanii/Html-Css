@@ -106,6 +106,7 @@ appbrewery.github.io/css-display/
     -it is used to add two  different elements in a single line
     -are elements that do not start on a new line but instead flow alongside the surrounding content or other inline elements.
     -you cant change the height and width of the inline display
+    -<span>
 
 3.INLINE BLOCK
     -we can chamge the height and width of the element and can determine how much of the horizontal and vertical space occupied by it
@@ -174,9 +175,26 @@ NONE
 table element - <tabel>             should specically be used to create text related categories it should not be used to create layouts
 float = shoud mainly be used to wrap the text around an elemment it should also not be used to create layouts
 
-                                                         FLEXBOX
+                                                         FLEXBOX(layout system)
 
--display flex ()
+-display flex (inline Flex)
+
+        -this is mainly added to the container containg all the elements that you want to layout using the Flexbox
+        -this property overlies all the inline, block and inline block 
+        -first aligns elements horizonatally by DEFAULT
+        -which will be a block by default(it will occupy the whole horizontal)
+        -we can set it to "inline block " 
+
+MODIFYING FLEXBOX 
+
+        -FLEX-DIRECTION: ROW(horizontal) - default - the flex axis will be in the horizontal axis/cross axis vertical
+        -FLEX-DIRECTION: COLUMN(vertical) - the main axis will be in the vertical DIRECTION/cross axix horizontal
+
+        -FLEX BASIS(height) - it takes place along the main axis, thus it increases different things in ROWS and  COLUMNS
+
+
+" > " this is used to select the direct childern of a selector, it wont select the inner child
+
 
 
 
