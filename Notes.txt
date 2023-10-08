@@ -195,6 +195,20 @@ MODIFYING FLEXBOX
 
 " > " this is used to select the direct childern of a selector, it wont select the inner child
 
+-Layout 
+
+        ORDER: defines its postion of elemnent from the group - starts from 0
+        FLex-Wrap:(Parent)
+            -wrap: this will make the rest of the elemets shift to the next line
+            -no wrap: (Default) it will keep going horizonatally
+        
+        JUSTIFY CONTENT: shifts content along the main axis 
+            -flex start 
+            -flex end
+            -centre
+            -space between: no space between the ends equal sapace between the elements   
+            -space around
+            -space evenly
 
 
 
