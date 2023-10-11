@@ -210,6 +210,57 @@ MODIFYING FLEXBOX
             -space around
             -space evenly
 
+        ALIGN CONTENT: aligns content along the cross axic
+            -
+
+                        /* Flex Container Properties */
+                display: flex; /* Establishes a flex container. */
+                display: inline-flex; /* Establishes an inline flex container. */
+                flex-direction: row; /* Items are placed from left to right. */
+                flex-direction: row-reverse; /* Items are placed from right to left. */
+                flex-direction: column; /* Items are placed from top to bottom. */
+                flex-direction: column-reverse; /* Items are placed from bottom to top. */
+                flex-wrap: nowrap; /* Items are placed in a single line. */
+                flex-wrap: wrap; /* Items wrap onto multiple lines from top to bottom. */
+                flex-wrap: wrap-reverse; /* Items wrap onto multiple lines from bottom to top. */
+                justify-content: flex-start; /* Items are packed toward the start of the flex container. */
+                justify-content: flex-end; /* Items are packed toward the end of the flex container. */
+                justify-content: center; /* Items are centered in the flex container. */
+                justify-content: space-between; /* Items are evenly distributed in the flex container, with space between them. */
+                justify-content: space-around; /* Items are evenly distributed in the flex container, with space around them. */
+                justify-content: space-evenly; /* Items are distributed so that the spacing between any two items (and the space to the edges) is equal. */
+                align-items: flex-start; /* Items are aligned at the start of the cross axis. */
+                align-items: flex-end; /* Items are aligned at the end of the cross axis. */
+                align-items: center; /* Items are centered on the cross axis. */
+                align-items: baseline; /* Items are aligned such that their baselines align. */
+                align-items: stretch; /* Items stretch to fill the container on the cross axis. */
+                align-content: flex-start; /* Lines of flex items are packed toward the start of the flex container. */
+                align-content: flex-end; /* Lines of flex items are packed toward the end of the flex container. */
+                align-content: center; /* Lines of flex items are centered in the flex container. */
+                align-content: space-between; /* Lines of flex items are evenly distributed in the flex container, with space between them. */
+                align-content: space-around; /* Lines of flex items are evenly distributed in the flex container, with space around them. */
+                align-content: stretch; /* Lines of flex items stretch to fill the container. */
+
+                /* Flex Item Properties */
+                order: <number>; /* Sets the order of the flex item within the flex container. */
+                flex-grow: <number>; /* Specifies the ability for a flex item to grow. */
+                flex-shrink: <number>; /* Specifies the ability for a flex item to shrink. */
+                flex-basis: <length> | auto; /* Specifies the initial size of a flex item. */
+                flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]; /* A shorthand property for the flex-grow, flex-shrink, and flex-basis properties. */
+                align-self: auto; /* Inherits the value of align-items from the parent flex container. */
+                align-self: flex-start; /* The flex item is placed at the start of the cross axis. */
+                align-self: flex-end; /* The flex item is placed at the end of the cross axis. */
+                align-self: center; /* The flex item is centered on the cross axis. */
+                align-self: baseline; /* The flex item is aligned such that its baseline aligns with the baseline of its parent. */
+                align-self: stretch; /* The flex item is stretched to fill the container on the cross axis. */
+
+SHRINKING AND GROWOING OF ELEMENTS
+
+        
+
+
+
+
 
 
 
