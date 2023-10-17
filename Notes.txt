@@ -279,7 +279,15 @@ GROW AND SHRINK
     z = flex basis
 
     flex: 1; == means grow 1 shrink one flex basis 0 
-    
+
+
+
+                            GRID 
+used to create 2d layouts
+GENRALLY 
+    FLEX BOX IS GOOD FOR ONE D
+    GRID IS GOOD FOR TWO 2 compared to flex
+    (combination of these two is often used)
 
 
 
