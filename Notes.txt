@@ -295,9 +295,12 @@ GENRALLY
 
 INCLUDING BOOTSTRAP CSS
 ->using cdn link(content delivery Network)
+->Usign an internal style element will override external css - overide css
 
+BOOTSTRAP layout(Class)
+    >container Fluid = edge to edge behavior
+    >container = not edge to edge rather equal spacing
 
- 
 
 
 
