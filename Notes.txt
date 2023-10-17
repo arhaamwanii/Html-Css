@@ -256,12 +256,29 @@ MODIFYING FLEXBOX
 
 SIZING
 
-SHRINKING AND GROWOING OF ELEMENTS
-        
-    -PRIORITY LIST: 
-    -min/maximum width > flex basis> Width> contnetwidth
-        -default max width: text length 
-        -default min width: biggest word length 
+PRIORITY LIST: 
+-min/maximum width > flex basis> Width> contnetwidth
+     -default max width: text length 
+     -default min width: biggest word length 
+
+GROW AND SHRINK
+-most of flexiniliy comes from this
+-setting it to none(0) = the items dont change there size at all when there is change in the display
+    -FLEX GROW: occupy all of the hoaronatal space and cover it up 
+        it is off(0) by default
+
+    -FLEX SHRINK: items shift, to the next line when the space is shrunk resulting into dicrease in width
+        it is on by deafult
+    
+
+#short form for flex grow , flex shrink, flex basis 
+    flexx: x y z;
+
+    here x = flex grow
+    y = flex shrink 
+    z = flex basis
+
+    flex: 1; == means grow 1 shrink one flex basis 0 
     
 
 
