@@ -254,11 +254,20 @@ MODIFYING FLEXBOX
                 align-self: baseline; /* The flex item is aligned such that its baseline aligns with the baseline of its parent. */
                 align-self: stretch; /* The flex item is stretched to fill the container on the cross axis. */
 
+SIZING
+
 SHRINKING AND GROWOING OF ELEMENTS
-
         
+    -PRIORITY LIST: 
+    -min/maximum width > flex basis> Width> contnetwidth
+        -default max width: text length 
+        -default min width: biggest word length 
+    
 
 
+
+
+ 
 
 
 
