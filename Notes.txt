@@ -353,6 +353,61 @@ BOOTSTRAP-SPACING
     auto - for classes that set the margin to auto
 
 
+ADDING DARK MODE TO MY WEBSITE
+
+    <html lang="en" data-bs-theme="dark">
+
+
+
+WEB  DESIGN
+    -you only have three seconds to make a Good Impresion
+    -make your design look expemsive
+
+!COLOR THEORY 
+!TYPOGRAPHY
+!USER INTERFACE DDESIGN 
+!USER EXPERIENCE DESIGN
+
+    !COLOR THEORY!
+
+-mood of your deign
+-red: ENERGITIC
+-yeLlow: ATTENTION - for a headline or  something - for short period of time 
+-green: freshness - growth - safety : grocery - this thing is edible
+-blue: trust 
+-purpile; royallity - femininity - soft purple (Kylie jenner brand)
+
+COMBIING COLORS
+-website link in the book mark
+-color palates used by "designers"
+
+    !TYPOGRAPHY!
+
+-SERIF FAMILY : they have   feet like stuff going on with theme
+    magzine or something :  legal letter
+
+    SERIF
+    -AUTHORITATIVE = modern  
+    -TRADITIONAL, STABLE, RESPECTABLE
+
+    SANS-SERIF
+    -SENSIBLE, SIMPLE, STRAIGHT FORWARD
+        -HUMANIST = is considered highly readible
+        -body Text
+        -Grotesk - 
+
+    SCRIPT
+    -PERSONAL, CREATIVE, ELEGANT
+
+    DISPLAY
+    -FRIENDLY, LOUD, AMUSING
+
+    MODERM
+    -STYLISH, CHIC, SMART
+
+
+
+
 
 
 
