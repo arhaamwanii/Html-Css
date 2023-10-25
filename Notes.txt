@@ -309,7 +309,25 @@ SIZED COLUMN
 BREAK-POINTS 
     -these differentiate the size of colum for different devices,
     -basically we can add media querries like stuff, if the device screen size is 1000px or less then change the colum ratio to 2 insted of 3 
-    -
+    
+
+    -Small "sm" -- it is mainly used in small devises
+    -medium "md" -- for screen sizes which ae smaller than half the size of the screen of this monitor
+   
+    -small - mobile (sm)
+    -medium - tablets and ipands (md)
+    -large - laptop (lg)
+    -extra large - desktop (xl)
+    -exta extra large - tv (xxl)
+
+    col class by default is going to take 100% of the width
+    (col-sm-12 col-md-6 col-lg-4)
+    on smaller divises we make things bigger
+
+BOOT-STRAP COMPONENTS
+    -Button:
+        
+
 
 
 
