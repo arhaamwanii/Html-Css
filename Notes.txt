@@ -309,7 +309,7 @@ SIZED COLUMN
 BREAK-POINTS 
     -these differentiate the size of colum for different devices,
     -basically we can add media querries like stuff, if the device screen size is 1000px or less then change the colum ratio to 2 insted of 3 
-
+    -
 
 
 
