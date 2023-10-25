@@ -325,7 +325,8 @@ BREAK-POINTS
     on smaller divises we make things bigger
 
 BOOT-STRAP COMPONENTS
-    -Button:
+    -Button: check out the docs
+    -
         
 
 
