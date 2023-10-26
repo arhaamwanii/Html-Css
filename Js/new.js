@@ -40,13 +40,16 @@
 
 //CREATING A FULL FLEDGED INPUT CASE IN WHICH 
 
-var input = prompt("Please, enter your name")
+// var input = prompt("Please, enter your name")
 
-var first = input.slice(0,1)
-var second = input.slice(1, input.length)
+// var first = input.slice(0,1)
+// var second = input.slice(1, input.length)
 
-first = first.toUpperCase()
+// first = first.toUpperCase()
 
-alert("Hello " + first + second)
+// alert("Hello " + first + second)
+
+
+
 
 
