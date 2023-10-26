@@ -451,7 +451,16 @@ STRINGS
     -"a" + "b" it becomes "ab"
     -length calculation = variable.length
     
-    -if you want to change tee
+    -if you want to do some calculation or something dont do it in the function make a seperate variable where you can do that then out in the variable
+    
+    -command / will turn the code in to a comment
+
+    -SLICiNG STRING - "variable.slice(from(0),to(1))" -- this will slice the first charecter of the string not including the second one
+
+    -CHANGING THE CHARECTERS
+    -"variable.toUppecase()"
+    
+
 
 
 
