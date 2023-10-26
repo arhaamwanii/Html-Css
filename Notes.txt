@@ -410,6 +410,50 @@ COMBIING COLORS
 
 
                                                             JAVA-SCRIPT
+-java script is a interpeted languge
+
+-alert("message")
+    -alert here is the function   (behavior)
+    -";" denotes the end of the fontion - statement terminator
+    -A piece of text is mainy representes by -double quotation "" - STRING
+        -this is very nnecessary and this is what differnentate the text from the code 
+
+-DATA TYPE 
+    -STRING = text
+    -NUEBER = number
+    -BOOLEYAN = yes no 
+
+-VARIABLES
+    -remember stuff
+
+    - var myName = "arham" ;
+        -var  - KEYWORD
+        -my name - name of the VARIABLE
+        -arham - value in it
+
+    - var -- means you can vary the data which is insdie the variable
+
+    - "a = b" , asigns the value  of b to a 
+    in this code what happens is that value of "b" is assigned to "a" 
+    i,e a has been given the value of b
+    i.e a is b " to remember this, = can be thought of as is
+    basically "a is b"
+
+VARIABLE -- CONVENTIIONS
+    - try to give it meaning full name
+    -var cant begin with number
+    -cant contain spaces
+
+    -js uses camel casing in its synatax
+    
+STRINGS
+    -primitie data type
+    -"a" + "b" it becomes "ab"
+    -length calculation = variable.length
+    
+    -if you want to change tee
+
+
 
 
 
