@@ -483,6 +483,12 @@ CREATING AND CALLING FUNCTION
     -robot, given instructions in code
     -packet of code with a name
     -variable for code
+    -seperation of logic
+    -can change the parameter
+    -basically it is a black box which takes an input and gives an output accordingly
+     
+
+    -PARAMETERS - they act as local variables 
 
     function name(){
         code 
@@ -494,10 +500,19 @@ CREATING AND CALLING FUNCTION
         name();"
 
 FUNCTIONS ARE OF THREE TYPES 
-    - INPUT IN FUNCTION, this input is then going to be used in the code
-    -
-
-
+    -Simple Function 
+    -INPUT IN FUNCTION, this input is then going to be used in the considere
+        basically you create a varible in the biging of the function and use it in the code then when you call the function you determine the value of this variable
+    -Function also gives output
+        "return",
+        - if you want the function to return some value, and you want to use it outside you can return it out of the function 
+        -once the value is out there you need to store it in a variable or something to make it applicabel outside the function as well
+        -once you call a function - "name(a,b)" you are actually calling for the function to do whatever it has inside of it once that is dome, you may need to return  the value of that thats when the value of return is used
+        -a & b are the values which are assigned to the local variables inside the function(value of parameters)
+        - it is necessary to store the value of the item in a container outside to make  a use of it
+        
+    
+ 
  
 
 

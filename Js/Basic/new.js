@@ -49,16 +49,16 @@
 
 // alert("Hello " + first + second)
 
-// function GG(){
-//     alert("how")
-//     alert("are")
-//     alert("today")
-//     alert("mfr")
-// }
+function GG(){
+    alert("how")
+    alert("are")
+    alert("today")
+    alert("mfr")
+}
 
-// GG();
+GG();
 
-function win(big){
+function win(big , small , medium){
     console.log("it all about how " + big + "risk you want to take" ); 
 }
 
