@@ -472,8 +472,31 @@ Calculation in Js are pretty Straight Forward
 
 INCREMENT AND DECREMENT - operators in js
     -"X++" increament in the value of x by one
-    -it
+    -increment expression 
+    -"x--" dicreses values by one 
+    -dicrement expression 
 
+    -"x+=3" this means that you are adding x by the value of 3
+
+
+CREATING AND CALLING FUNCTION
+    -robot, given instructions in code
+    -packet of code with a name
+    -variable for code
+
+    function name(){
+        code 
+        code
+    }
+
+    calling a function - "
+        
+        name();"
+
+    
+
+
+ 
 
 
 

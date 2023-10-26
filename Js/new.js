@@ -49,6 +49,14 @@
 
 // alert("Hello " + first + second)
 
+function GG(){
+    alert("how")
+    alert("are")
+    alert("today")
+    alert("mfr")
+}
+
+GG();
 
 
 
