@@ -493,7 +493,9 @@ CREATING AND CALLING FUNCTION
         
         name();"
 
-    
+FUNCTIONS ARE OF THREE TYPES 
+    - INPUT IN FUNCTION, this input is then going to be used in the code
+    -
 
 
  

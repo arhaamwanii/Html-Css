@@ -49,17 +49,18 @@
 
 // alert("Hello " + first + second)
 
-function GG(){
-    alert("how")
-    alert("are")
-    alert("today")
-    alert("mfr")
+// function GG(){
+//     alert("how")
+//     alert("are")
+//     alert("today")
+//     alert("mfr")
+// }
+
+// GG();
+
+function win(big){
+    console.log("it all about how " + big + "risk you want to take" ); 
 }
 
-GG();
-
-
-
-
-
+win(big);
 
