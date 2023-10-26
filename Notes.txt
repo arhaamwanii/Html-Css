@@ -459,8 +459,20 @@ STRINGS
 
     -CHANGING THE CHARECTERS
     -"variable.toUppecase()"
-    
 
+Calculation in Js are pretty Straight Forward
+    -everything basically function the same as before except for mudulo
+
+    -In MODULO(%) - the sign is %
+    -it function is that it allows us to see the remainder once a calculation is done
+    -it can be used to determine weather the number is even or is it odd
+
+
+    -try to make the bodmass rules obvious
+
+INCREMENT AND DECREMENT - operators in js
+    -"X++" increament in the value of x by one
+    -it
 
 
 
