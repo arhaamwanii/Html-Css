@@ -147,17 +147,79 @@
 
 // friends.includes("why")
 
-var name = prompt("whats your name");
+// var name = prompt("whats your name");
 
-var friends = ["his", "why", "was", "stronger", "than", "his", "how"];
+// var friends = ["his", "why", "was", "stronger", "than", "his", "how"];
 
-if(friends.includes(name) === true ){
-    alert("Your Welcome");
+// if(friends.includes(name)  ){
+//     alert("Your Welcome");
+// }
+// else{
+//     alert("your name is not on the list");
+// }
+
+
+
+// var output= [];
+
+// output.push(1);
+
+
+
+// var output = [];
+// var gin =  1;
+
+// function fizzbuzz(){
+
+//     output.push(gin);
+//      p = gin ++;
+//     if(inn % 3 === 0){
+//         output.pop(gin);
+//         output.push(fizz);
+//     }
+//     console.log(output);
+// }
+
+// fizzbuzz();
+// fizzbuzz();
+// fizzbuzz();
+
+var output = [];
+var going = 0;
+
+function fizzbuzz(){
+ 
+    if (going % 3 === 0){
+        output.push("fuzz");
+    }
+    else{
+        output.push(going);
+    }
+
+    going ++;
+    console.log(output);
+
 }
-else{
-    alert("your name is not on the list");
-}
 
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+fizzbuzz();
+ 
 
 
 

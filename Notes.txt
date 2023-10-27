@@ -548,7 +548,11 @@ ARRAYS
 
     -square braces [] - access and create desk
 
+    -PUSH
+    -it can be used to push  a item at the end of an array
 
+    -POP
+    it is used to pop the items in the array - at the end
 
 
 
