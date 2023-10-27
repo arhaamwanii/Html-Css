@@ -511,8 +511,13 @@ FUNCTIONS ARE OF THREE TYPES
         -a & b are the values which are assigned to the local variables inside the function(value of parameters)
         - it is necessary to store the value of the item in a container outside to make  a use of it
         
+-Math
+    -M is capitalized
+    -Math.random = generates a random number between 0 and 1 -- floating number i.e in deciamls
+
+ IF ELSE CONDITONAL --- logic  
+    -control the flow
     
- 
  
 
 
