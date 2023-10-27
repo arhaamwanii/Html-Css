@@ -519,7 +519,7 @@ FUNCTIONS ARE OF THREE TYPES
     -control the flow
     -IF -> {}it is the main condiitiom 
     -ELSE -> it the the secondary  code which will be executed if the condition fo if not correct
-
+        -else should be the last thing to go for- everything rest leaving what you put in if and else if
 COMPRATIVES IN Js
     -compare values
     - "===" to check wheter left hand side to right han d SIDE

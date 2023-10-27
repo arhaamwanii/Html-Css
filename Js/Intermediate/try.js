@@ -185,17 +185,22 @@
 // fizzbuzz();
 
 var output = [];
-var going = 0;
+var going = 1;
 
 function fizzbuzz(){
  
-    if (going % 3 === 0){
-        output.push("fuzz");
+    if ( going % 3 === 0 && going % 5 === 0){
+        output.push("frizbuzz");
+    }
+    else if(going % 3 === 0){
+        output.push("friz");
+    }    
+    else if(going % 5 === 0){
+        output.push("buzz");
     }
     else{
         output.push(going);
     }
-
     going ++;
     console.log(output);
 
@@ -216,10 +221,7 @@ fizzbuzz();
 fizzbuzz();
 fizzbuzz();
 fizzbuzz();
-fizzbuzz();
-fizzbuzz();
-fizzbuzz();
- 
+
 
 
 
