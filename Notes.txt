@@ -517,8 +517,25 @@ FUNCTIONS ARE OF THREE TYPES
 
  IF ELSE CONDITONAL --- logic  
     -control the flow
-    
- 
+    -
+
+COMPRATIVES IN Js
+    -compare values
+    - "===" to check wheter left hand side to right han d SIDE
+        - in case of "==" it checks for equality but it dosent check for dosent check for equality of data type 
+        -strict equator vs equalor
+
+    -"!==" to check if it is  not Equal
+    -">" check greter than
+    -">=" greater than or equal 
+
+
+    - if you want to check if x is equal to 11 or 13, it should come before checking if x is greater than 12 or less than 12
+
+COMBINING COMPIRATORS
+    -   AND (&&) and OR (||)
+
+
 
 
 
