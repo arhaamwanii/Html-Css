@@ -554,6 +554,9 @@ ARRAYS
     -POP
     it is used to pop the items in the array - at the end
 
+LOOPS 
+    -while(something is true), this means that while this statement is true do something
+    -
 
 
 

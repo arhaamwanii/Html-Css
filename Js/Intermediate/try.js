@@ -188,7 +188,9 @@
 // var going = 1;
 
 // function fizzbuzz(){
- 
+    
+//     while(going <= 100){
+
 //     if ( going % 3 === 0 && going % 5 === 0){
 //         output.push("frizbuzz");
 //     }
@@ -203,7 +205,7 @@
 //     }
 //     going ++;
 //     console.log(output);
-
+//     }
 // }
 
 // fizzbuzz();
@@ -223,25 +225,41 @@
 // fizzbuzz();
 
 
-var name = ["arham", "amin", "rami", "mehdi", "shan", "yousf"];
+// var name = ["arham" , "amin" , "wani" , "how"]
 
-function work() {
-    
-    var n = Math.floor(Math.random() * 6 + 1 );
+// function work() {
+//     var name = ["arham" , "amin" , "wani" , "how"]
+//     var n = Math.floor(Math.random() * 6 + 1 );
 
-    alert(  name[2] +" will pay the bill");
-}
+//     alert(  name[2] +" will pay the bill");
+// }
 
-work();
-
-
+// work();
 
 
 
+// var one = ["one" , "two" , "three" , "four" , "five"];
+
+// console.log(one[2]);
+
+// var i = 1;
+
+// while(i< 100 ){
+//     console.log(i);
+//     i++;
+// }
 
 
+// var i = 100;
 
+// function song(){
+//     while  (i >= 0 ){
+//         console.log( i + " bottles of beer on the WakeLockSentinel, " + i + "bottles of beerTake one bottle down and pass it around, " + (i - 1) + "bottles of beer on the wall");
+//         i--;
+//         }
+// }
 
+// song();
 
 
 
