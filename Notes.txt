@@ -517,7 +517,8 @@ FUNCTIONS ARE OF THREE TYPES
 
  IF ELSE CONDITONAL --- logic  
     -control the flow
-    -
+    -IF -> {}it is the main condiitiom 
+    -ELSE -> it the the secondary  code which will be executed if the condition fo if not correct
 
 COMPRATIVES IN Js
     -compare values

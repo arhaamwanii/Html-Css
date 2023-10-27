@@ -82,27 +82,82 @@
 
 
 
-function newFunction() {
-    var x = prompt("size");
+// function newFunction() {
+//     var x = prompt("size");
     
-    if (x == 13 || x == 11) {
-        console.log("there is a chance");
-    }
-    else if (x == 12) {
-        console.log("correct size");
-    }
-    else if (x > 12) {
-        console.log("that's too big");
-    }
-    else if (x < 12) {
-        console.log("that's small");
-    }
-    else {
-        console.log("invalid input");
-    }
-}
+//     if (x == 13 || x == 11) {
+//         console.log("there is a chance");
+//     }
+//     else if (x == 12) {
+//         console.log("correct size");
+//     }
+//     else if (x > 12) {
+//         console.log("that's too big");
+//     }
+//     else if (x < 12) {
+//         console.log("that's small");
+//     }
+//     else {
+//         console.log("invalid input");
+//     }
+// }
 
-newFunction(); // Call the function
+// newFunction(); // Call the function
+
+
+
+
+function processInput(){
+    var userInput = document.getElementById("userinput").value;
+    return userInput ;
+}
+var user = processInput();
+ 
+console.log(user);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
