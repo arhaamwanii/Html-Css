@@ -40,7 +40,7 @@
 
 //----
 
-var weight = prompt("Whats your height:");
+var weight = prompt("Whats your Weight:");
 var height = prompt("Whats your height in Meters:")
 
 
@@ -60,7 +60,7 @@ function output(){
         alert("your BMI is " + out + "\n You are Underweight" );
     }
     else if(out > 18.5 && out < 24.5){
-        alert("Your BMI is " + out + "\nbrother you are good"  ); 
+        alert("Your BMI is " + out + "\good Enough"  ); 
     }
     else if(out > 24.5){
         alert("your BMI is" + out + "\nYou got work to do, cause you are overweight");
