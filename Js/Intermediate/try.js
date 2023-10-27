@@ -184,43 +184,55 @@
 // fizzbuzz();
 // fizzbuzz();
 
-var output = [];
-var going = 1;
+// var output = [];
+// var going = 1;
 
-function fizzbuzz(){
+// function fizzbuzz(){
  
-    if ( going % 3 === 0 && going % 5 === 0){
-        output.push("frizbuzz");
-    }
-    else if(going % 3 === 0){
-        output.push("friz");
-    }    
-    else if(going % 5 === 0){
-        output.push("buzz");
-    }
-    else{
-        output.push(going);
-    }
-    going ++;
-    console.log(output);
+//     if ( going % 3 === 0 && going % 5 === 0){
+//         output.push("frizbuzz");
+//     }
+//     else if(going % 3 === 0){
+//         output.push("friz");
+//     }    
+//     else if(going % 5 === 0){
+//         output.push("buzz");
+//     }
+//     else{
+//         output.push(going);
+//     }
+//     going ++;
+//     console.log(output);
 
+// }
+
+// fizzbuzz();
+// fizzbuzz();
+// fizzbuzz();
+// fizzbuzz();
+// fizzbuzz();
+// fizzbuzz();
+// fizzbuzz();
+// fizzbuzz();
+// fizzbuzz();
+// fizzbuzz();
+// fizzbuzz();
+// fizzbuzz();
+// fizzbuzz();
+// fizzbuzz();
+// fizzbuzz();
+
+
+var name = ["arham", "amin", "rami", "mehdi", "shan", "yousf"];
+
+function work() {
+    
+    var n = Math.floor(Math.random() * 6 + 1 );
+
+    alert(  name[2] +" will pay the bill");
 }
 
-fizzbuzz();
-fizzbuzz();
-fizzbuzz();
-fizzbuzz();
-fizzbuzz();
-fizzbuzz();
-fizzbuzz();
-fizzbuzz();
-fizzbuzz();
-fizzbuzz();
-fizzbuzz();
-fizzbuzz();
-fizzbuzz();
-fizzbuzz();
-fizzbuzz();
+work();
 
 
 
