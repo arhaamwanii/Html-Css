@@ -1,0 +1,664 @@
+body {
+    background-color: #000000;
+    color: white;
+    padding-bottom: 1000px;
+    margin: 0;
+ 
+}
+
+.all{
+    width: 100vw;
+    height: 100vh;
+
+}
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://iili.io/JKwkIln.md.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    }
+    
+    /* Add the semi-transparent overlay */
+    .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent);
+    }
+
+.street-contact {
+    z-index: 10000000;
+    padding: 10px;
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.nav {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-bar-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.nav-bar-links a {
+    font-family: Lora, Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.home{
+    background-color: #bea16b !important;
+}
+
+.w:hover:hover {
+    border-radius: 3px !important;
+    background-color: #bea16b !important;
+}
+
+
+.curry-big-text{
+    font-size: 50px;
+    font-weight: bold;
+    line-break: 10px;
+    text-align: center;
+}
+
+.sigin{
+    padding: 4px;
+}
+
+.number,.address{
+    font-weight: bold;
+}
+
+.btn{
+    font-family: Lora, Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 15px !important;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+
+
+.btn:hover{
+    background-color: black;
+}
+
+.main-content{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+
+.child-content-head{
+    font-weight: 300;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size:30.382px;
+}
+
+.child-content-p{
+    padding-top: 18px;
+    font-family: Lora, Arial, Helvetica, sans-serif;
+    font-size:19px;
+    line-height: 35.25px;
+    text-align: left;
+    width: fit-content;
+    font-weight: 100 !important;
+    color: rgb(214, 214, 214);
+}
+
+.main-txt-img{
+    display: flex;
+    /* flex-direction: ; */
+    align-items: center;
+    justify-content: space-between !important;
+    width: 100% !important;
+    margin-top: 20px;
+    padding: 0 20px;
+
+}
+
+.img-text,.main-text{
+    width: 50%;
+} 
+
+.img-text img{
+    width: 100% !important;
+    /* height: 700px; */
+    object-fit: cover;
+}
+
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -70px;
+    margin-left: -130px !important;
+}
+
+/* .line{
+    width: 50px;
+    text-align: left;
+} */
+
+.main-text p{
+    line-height :96.4576px !important;
+    font-family :"Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 63.7147px !important;
+}
+.main-text h6{
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size :19px;
+    margin-left: -230px;
+
+}
+.big-text{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 18px;
+}
+
+
+.dishes-container{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dishes-child{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.chef-fav{
+    text-align: center;
+    font-size: 70px;
+    font-weight :400;
+    font-family :"Bebas Neue", Arial, Helvetica;
+}
+
+
+.dishes-container{
+    margin-top: 40px;
+}
+
+
+.section-name{
+    font-size:45px;  
+    font-family:"Bebas Neue", Arial, Helvetica;
+    font-weight:400;
+    line-height:54px;
+}
+
+.menu-1{
+    margin: 50px;
+}
+
+.main-content p, h2{
+    width: fit-content;
+}
+
+.dishes-container p{
+    width: fit-content;
+}
+
+.menu-head{
+    display: flex;
+    align-items: center;
+}
+
+.menu-head h5{
+    font-family: Lora, Arial, Helvetica, sans-serif;
+    font-size: 39px;
+    font-weight: 400;
+    width: 300px;
+
+}
+
+.menu-head p{
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    letter-spacing: 1.44px;
+    line-height: 19.2px;  
+    margin-left: 25px;
+}
+
+.menu-desc{
+    text-align: left !important;
+}
+
+.menu-desc-p{
+    margin: 0;
+    font-weight: 400;
+    line-height: 43.25px;
+    font-family: Lora, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-size-adjust: 100%;
+    color:rgb(214, 214, 214);
+    width:380px;
+    
+}
+
+
+.fine-dining{
+    margin-top: 30px;
+    position: relative;
+    height: 100vh;
+    background-image: url('https://images-cdn.redletterdays.co.uk/common/client/Images/Product/Extralarge/en-GB/RLD/10797222_RLDCurryBanquet1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+    
+    /* Add the semi-transparent overlay */
+    .fine-dining::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent);
+    }
+
+.dining{
+    position: relative;
+    z-index: 900000000;
+    background-color: rgba(9, 9, 9, 0.6);
+    width: fit-content;
+}
+
+.line-1{
+    position: absolute;
+    left: 70;
+    top:60;
+}
+
+.f-h{
+    color: rgb(214, 214, 214);
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 1.71px;
+    line-height: 22.8px;
+    text-align: left;
+}
+
+
+
+.big-h{
+    letter-spacing: normal;
+    line-height: 83.937px;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 69.9475px;
+    font-weight: 400;
+
+}
+
+
+.l-t{
+    color: rgb(214, 214, 214);
+    font-family: Lora, Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33.25px;
+
+}
+
+
+    /* Carousel Styles */
+    .carousel-container {
+        width: 100%; /* Take full viewport width */
+        overflow: hidden;
+    }
+
+    .carousel-slide {
+        display: flex;
+        transition: all 2s ease;
+    }
+
+    .testimonial {
+        min-width: 100%; /* Full width of the container */
+        padding: 20px;
+        /* border: 1px solid #e0e0e0; */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .reviewer-icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 0 auto 20px;
+        object-fit: cover;
+    }
+
+    .review-head{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 49px;
+    }
+
+
+   .old-fash-hero{
+        margin-top: 30px;
+        position: relative;
+        height: 100vh;
+        background-image: url('https://i.ibb.co/MhvXSFJ/HERO-BANNER.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+
+    .black-container{
+        height: 70%;
+        width: 80%;
+        background-color: black;
+    }
+
+
+    .black-container{
+        margin: 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+
+    }
+    
+    .black-cont{
+        position: relative;
+        display: grid;
+        place-items: center !important;
+        align-items: center;
+        justify-content: center !important;
+        gap: 60px;
+    }
+    .idk{
+        display: grid;
+        gap: 60px;
+
+    }
+
+    .line-3{
+        margin-left: -1px;
+        text-align: left;
+        align-items: left;
+        justify-content: left;
+        width: 100px;
+        color: rgb(117, 117, 117) !important;
+    }
+
+    .old-fash-head{
+        margin: 0 !important;
+        font-weight: 400;
+        line-height: 83.6638px;
+        font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+        font-size: 69.7199px;
+    }
+
+
+    .old-fash-p{
+        margin: 0 !important;
+        line-height: 33.25px;
+        margin-block-end:auto 20px;
+        font-family: Lora, Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        font-style: normal;
+        color: rgb(214, 214, 214);
+        width: 540px;
+    }
+
+
+
+    .bottom-hero{
+        margin-top: 30px;
+        position: relative;
+        height: 100vh;
+        background-image: url('https://i.ibb.co/MhvXSFJ/HERO-BANNER.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+
+    .bottom-hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 9) 50%, rgba(0, 0, 0, 0)); 
+    }
+    
+    .bottom-cont{
+        z-index: 9000000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icons-div{
+        display: flex;
+
+    }
+    .round-icons{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: white;
+        color: black;
+        margin-top: 15px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        transition: all 0.6s ease;
+    }
+
+    .round-icons:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .bottom-head{
+        font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+        font-size: 69.9475px;
+        line-height: 83.937px;
+        font-weight: 400;
+        width: 514px;
+    }
+
+    .address,.email,.phone{
+        font-weight: 400;
+        font-family: Lora, Arial, Helvetica, sans-serif;
+        font-size: 19px;
+    }
+
+    .footer{
+        padding-top: 15px;
+        padding-right: 10%;
+        padding-bottom: 15px;
+        padding-left: 10%;
+        text-align: center;
+    }
+
+    .footer-p{
+        font-family: Lora, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.44);
+    }
+
+
+
+
+
+
+    @media (max-width: 900px) { 
+
+        body {
+            width: 100%;
+        }
+    
+        .main-content {
+            flex-direction: column;
+        }
+    
+        .main-content h2 {
+            font-size: 24px;
+        }
+    
+        .main-content p {
+            width: 100%;
+        }
+    
+        .main-txt-img {
+            flex-direction: column;
+        }
+    
+        .img-text {
+            width: 100%;
+        }
+    
+        .img-text img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .chef-fav {
+            font-size: 49px;
+            text-align: center;
+        }
+    
+        .dishes-child {
+            flex-direction: column;
+        }
+    
+        .dining {
+            padding: 40px;
+            width: 80%;
+            height: auto;
+        }
+    
+        .black-cont {
+            gap: 30px;
+        }
+    
+        .idk {
+            gap: 30px;
+        }
+    
+        .line-3 {
+            margin-left: 0;
+        }
+    
+        .old-fash-head {
+            width: fit-content;
+            font-size: 50px;
+            
+        }
+
+     .old-fash-hero{
+        width: fit-content;
+     }
+
+        .old-fash-p {
+            width: 80%;
+        }
+    
+        .bottom-cont {
+            padding: 20px;
+        }
+    
+        .icons-div {
+            justify-content: center;
+            gap: 10px;
+        }
+    
+        .round-icons {
+            margin: 10px;
+        }
+    
+        .bottom-head {
+            font-size: 25px;
+            line-height: 30px;
+        }
+    
+        .address, .email, .phone {
+            text-align: center;
+        }
+    
+        .footer-p {
+            font-size: 14px;
+        }
+
+        .bottom-cont{
+            width: fit-content;    
+        }
+
+        .big-h{
+            width: fit-content;
+            font-size: 50px;
+        }
+    
+    }
+    
+
