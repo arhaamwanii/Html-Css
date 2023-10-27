@@ -267,22 +267,32 @@
 
 //FABONASI SEQUENCE
 
-function fabo(x, y){
-    for (i = 0 ; i < 100 ; i++){
-       z = (x + y);
-       a1 = (z + x);
-       console.log(z)
-       console.log(a1)
-       x = a1;
-       y = z;
+// function fabo(x, y){
+//     for (i = 0 ; i < 100 ; i++){
+//        z = (x + y);
+//        a1 = (z + x);
+//        console.log(z)
+//        console.log(a1)
+//        x = a1;
+//        y = z;
 
-    }
-}
+//     }
+// }
 
-fabo(0,1);
+// fabo(0,1);
 
 
 
+//DOM
+
+document.firstElementChild.lastElementChild.firstElementChild;
+    
+   
+    
+var heading = document.firstElementChild.lastElementChild.firstElementChild;
+
+
+heading.innerHTML = "for life"
 
 
 

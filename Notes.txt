@@ -569,9 +569,24 @@ DOCOUNENT OBJECT MODEL(DOM)
 
     - it is used to manuplate html using JavaScript
     -catalogs the website into individual objects which can be selected 
-    
+    -inner Html
+
+    -we can modify the code, by first creating a varible for the locationof the element we want to afect with javascript;
+
+    -OBJECTS INSIDE THE DOM CAN HAVE    
+        -PROPERTIES = define somethinf aboout the project
+            -
+
+        -METHODS = things an object can do
+            -
 
 
+    GETTER      (car.COLOR) 
+    -used to get a property of a object
+    -it is used to edit 
+
+    SETTER       (car.numberofDoor = 0 ;)
+    -just a difference of = between setter and getter
 
 
 
