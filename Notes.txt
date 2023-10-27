@@ -536,6 +536,21 @@ COMPRATIVES IN Js
 COMBINING COMPIRATORS
     -   AND (&&) and OR (||)
 
+ARRAYS 
+    -it is a collection of like or unlike Data types
+    -[COLLECTION OF DATA]
+
+    -var Eggs = eggs[1];
+
+    -accessing a array => Eggs[2]
+
+    -Eggs.length
+
+    -square braces [] - access and create desk
+
+
+
+
 
 
 

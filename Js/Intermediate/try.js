@@ -107,13 +107,96 @@
 
 
 
-function processInput(){
-    var userInput = document.getElementById("userinput").value;
-    return userInput ;
-}
-var user = processInput();
+// function processInput(){
+//     var userInput = document.getElementById("userinput").value;
+//     return userInput ;
+// }
+// var user = processInput();
  
-console.log(user);
+// console.log(user);
+
+
+//if a year is divisible by 4 it is a leap year
+//if a that year is also divisible by 100 then it is not a leap year
+//- it can still be   leap year if it is divisible by 400 also w
+
+// var  year  = prompt("Year:");
+
+// function check(){
+//     if(year % 4){
+//         if(year % 100){
+//             if (yeat % 400){
+//                 return "it is a leap year"
+//             }
+//             else{
+//                 return "it is not a leap year"
+//             }
+//         }
+//         else{
+//             return "it is a leap year "
+//         }
+//     }
+//     else{
+//         return "it is a leap year"
+//     }
+// }/
+
+
+// var friends = ["his", "why", "was", "stronger", "than", "his", "how"];
+// console.log(friends[friends.length - 1]);
+
+// friends.includes("why")
+
+var name = prompt("whats your name");
+
+var friends = ["his", "why", "was", "stronger", "than", "his", "how"];
+
+if(friends.includes(name) === true ){
+    alert("Your Welcome");
+}
+else{
+    alert("your name is not on the list");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
