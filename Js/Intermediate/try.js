@@ -292,7 +292,9 @@ document.firstElementChild.lastElementChild.firstElementChild;
 var heading = document.firstElementChild.lastElementChild.firstElementChild;
 
 
-heading.innerHTML = "for life"
+heading.innerHTML = "for life";
+
+
 
 
 

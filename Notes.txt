@@ -583,10 +583,35 @@ DOCOUNENT OBJECT MODEL(DOM)
 
     GETTER      (car.COLOR) 
     -used to get a property of a object
-    -it is used to edit 
 
     SETTER       (car.numberofDoor = 0 ;)
     -just a difference of = between setter and getter
+    - it is used to edit stuff
+    -
+
+    CALLING A METHODS
+    -car.drive();
+    -only difference between a method and an obeect is that method is something applicable to objects
+    -it is basically function for an object
+    -we know something we do something
+
+    -Methods are essentially FUNCTIONS 
+    -BUTTON
+    -properties - inner html, style , first child
+    -methods - click(), append Child(), setattribute().
+
+    all of this can be accessed using the dot notation
+
+    
+    SELECTING HTML ELEMENTS WITH JS
+
+    -document.getElementByTagName("li)
+        -this will select all the lits items
+        -it wont just fetch one all the elements with the name li
+        -gives back an array 
+        
+
+
 
 
 
