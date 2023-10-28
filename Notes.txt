@@ -670,9 +670,10 @@ ATTRIBUTE MANUPLATION
     -this shows all the atributes of the given element
     -document.getElementById("attributes").getAttribute("href");
     - this will give the value of the attribute of the given element
-    
+
 
 ADDING OR REMOVING EVENT LISTNERS
+    -
 
 
 
