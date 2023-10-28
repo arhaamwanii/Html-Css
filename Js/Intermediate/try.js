@@ -285,17 +285,48 @@
 
 //DOM
 
-document.firstElementChild.lastElementChild.firstElementChild;
+// document.firstElementChild.lastElementChild.firstElementChild;
     
    
     
-var heading = document.firstElementChild.lastElementChild.firstElementChild;
+// var heading = document.firstElementChild.lastElementChild.firstElementChild;
 
 
-heading.innerHTML = "for life";
+// heading.innerHTML = "for life";
+
+// function get(){
+   
+//     var element = document.getElementById("nbackup");
+//     var out = element.innerHTML;
+//     element.innerHTML = ("new text");
+//     return out;
+// }
+
+// out = get();
+// console.log(out);
 
 
+// document.getElementsById("list").innerHTML = "Straight UP";
 
+// function work(){
+
+//     document.getElementById("heading").innerHTML = "straight UP";
+// }
+
+// work();
+
+//GET element and manuplation via it
+
+
+// function change(){
+
+// document.getElementById("one").innerHTML = "Five";
+// };
+
+// change();
+
+
+document.getElementById("head").classList.toggle("remove");
 
 
 

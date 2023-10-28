@@ -610,6 +610,68 @@ DOCOUNENT OBJECT MODEL(DOM)
         -it wont just fetch one all the elements with the name li
         -gives back an array 
         
+        -we cant just chnage the properties of a array
+        - we have to select the array one by one 
+    
+    -getElement by class
+        -is also going to give back an array
+        -basically it will return an array with all the elements having the given class
+    
+
+
+
+    -get elemeent by id 
+        -is the the one that can dirctly select one of the ELEMENTS
+        -selects singular
+
+    querry selectors - in this case we can specify what we wan to do and do shit accordingly
+        - # for an ID
+        - . for an class
+        - simple tag name to select the whole thing
+
+        or you can a numebr of tose to be more specific
+
+        - it  
+
+MANUPATING VIA JS
+    -document.querySelector("h1").style.color = "blue";
+    -properties may difference
+    #keep in mind the camel casing
+
+    IN MOST  OF THE CASES CAPITILOZATION WILL TAKE PLACE INSTEAD OF SPACES IN THE ACTUAL CSS
+    -"" we have to specify thigns as a string in js - even if it is a number
+
+
+SEPERATION OF CONCERNS 
+    -HTML - content
+    -CSS - style - looking
+    -JS - behavior - behaving
+
+CLASS LIST
+    -you can acess the calss list then you can toggle it on or off 
+    -document.getElementById("head").classList.toggle("remove");
+    
+
+    -classList.add = adds the class to that element
+    -classList.remove =  removes the class from that element
+    -classList.toggle = if alternates the class if it is off it turns it off it is on and vise versa
+
+    this is how you only conrol the css and not effect the actuall css
+
+    -document.getElementById("one").classList.add("huge");
+
+TEXT-MANUPPLATION
+    -inner.html = you will get the whole html includig the text
+    -content.html = it only gets the text 
+
+ADDING OR REMOVING EVENT LISTNERS
+
+
+
+        
+
+    
+        
 
 
 
