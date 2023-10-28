@@ -664,6 +664,14 @@ TEXT-MANUPPLATION
     -inner.html = you will get the whole html includig the text
     -content.html = it only gets the text 
 
+ATTRIBUTE MANUPLATION
+    -EG: href, class itself
+    -document.getElementById("attributes").attributes;
+    -this shows all the atributes of the given element
+    -document.getElementById("attributes").getAttribute("href");
+    - this will give the value of the attribute of the given element
+    
+
 ADDING OR REMOVING EVENT LISTNERS
 
 

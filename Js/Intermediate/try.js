@@ -326,7 +326,7 @@
 // change();
 
 
-document.getElementById("head").classList.toggle("remove");
+// document.getElementById("head").classList.toggle("remove");
 
 
 
