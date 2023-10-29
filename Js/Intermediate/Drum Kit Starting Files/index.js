@@ -13,17 +13,57 @@
 
 
 
-//  
+//  MA
 
-var numberOfDrumButtons = document.querySelectorAll(".drum").length;
+// var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
-for (var i = 0; i < numberOfDrumButtons ; i++)
-{
+// for (var i = 0; i < numberOfDrumButtons ; i++)
+// {
 
-document.querySelectorAll(".drum")[i].addEventListener("click", function(){
-    alert("i got clicked");
-})
+// document.querySelectorAll(".drum")[i].addEventListener("click", function(){
+  
+//     alert("i got clicked");
 
-};
+// })
 
+// };
+
+
+// var numberOfBtns = document.querySelectorAll(".drum").length;
+
+// for( i = 0 ; i < numberOfBtns ; i++){
+
+
+// document.querySelectorAll(".drum")[i].addEventListener("click" , click  );
+
+// function click(){
+
+//     alert("i got clicked");
+// };
+// }
+
+
+
+
+var numberOfBtns = document.getElementsByClassName("drum").length ;
+
+
+for( i = 0 ; i< numberOfBtns ; i++){
+
+document.getElementsByClassName("drum")[i].addEventListener("click" , showAlert);
+
+function showAlert(){
+    alert("I got clicked")
+}
+}
+
+
+
+//why this shit didnt work is  because when we get the ELEMENTS - element"s" -- which are put in an arry by default 
+//you cant add properties direclty to the array you need to specify the shit
+//get elements by class can get the element by a single class
+
+
+
+//PLAYING THE SOUND
 
