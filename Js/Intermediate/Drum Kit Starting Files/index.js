@@ -53,7 +53,7 @@ for( i = 0 ; i< numberOfBtns ; i++){
 document.getElementsByClassName("drum")[i].addEventListener("click" , showAlert);
 
 function showAlert(){
-    alert("I got clicked")
+    
 }
 }
 
@@ -66,4 +66,14 @@ function showAlert(){
 
 
 //PLAYING THE SOUND
+
+var sound = document.getElementById("audio1")
+
+function playSound(){
+    sound.currentTime = 0;
+    sound.play();
+}
+
+document.getElementById("btn1").addEventListener("click" , playSound);
+
 
