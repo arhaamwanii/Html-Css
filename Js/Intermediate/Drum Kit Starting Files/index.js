@@ -6,9 +6,9 @@ document.querySelector("button").addEventListener("click", handleClick)
 //adding the parenthese at the end will make it get called as soon as the eventlistner is added it does not wait for things to be clicked 
 
 
-var num
+var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
-for (var i = 0; i< document.querySelectorAll(".drum").length)
+for (var i = 0; i< numberOfDrumButtons ; i++)
 
 
 document.querySelector("button")[].addEventListener("click", function(){
