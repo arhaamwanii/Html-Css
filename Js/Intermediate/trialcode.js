@@ -329,21 +329,38 @@
 // document.getElementById("head").classList.toggle("remove");
 
 
-function add(num1 , num2){
-    return num1 + num2;
-}
 
-function multiply(num1, num2){
-    return num1 * num2;
-}
 
-function divide(num1 , num2){
-    return num1/num2;
-}
 
-function calculator(num1 , num2 , sex){
-    return sex(num1 , num2);
-}
+// function add(num1 , num2){
+//     return num1 + num2;
+// }
+
+// function multiply(num1, num2){
+//     return num1 * num2;
+// }
+
+// function divide(num1 , num2){
+//     return num1/num2;
+// }
+
+// function sub(num1 , num2){
+//     return num1 - num2;
+// }
+
+// function calculator(one , two , set){
+//     return set(one , two);
+// }
+
+
+
+
+
+
+//what basically goes on is that we have the pre-build fuctions which we then call using the calculator  function
+//"""SET(ONE , TWO)""" this basically becomes a function call for prebuilt functions that are going to called via CALCULATOR function
+
+
 
 
 
