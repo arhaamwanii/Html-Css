@@ -45,6 +45,31 @@
 
 
 
+//why this shit didnt work is  because when we get the ELEMENTS - element"s" -- which are put in an arry by default 
+//you cant add properties direclty to the array you need to specify the shit
+//get elements by class can get the element by a single class
+
+
+
+//PLAYING THE SOUND
+
+// var sound = document.getElementById("audio1")
+
+
+
+// function playSound(){
+//     sound.currentTime = 0;
+//     sound.play();
+// }
+
+// document.getElementById("btn1").addEventListener("click" , playSound);
+
+
+//simply adding the play to the sound file 
+
+
+
+
 var numberOfBtns = document.getElementsByClassName("drum").length ;
 
 
@@ -56,30 +81,20 @@ function showAlert(){
     var audio = new Audio('sounds/tom-1.mp3')
     
     audio.play();
+
+    this.style.color = "white";
     
 }
 }
 
-
-
-//why this shit didnt work is  because when we get the ELEMENTS - element"s" -- which are put in an arry by default 
-//you cant add properties direclty to the array you need to specify the shit
-//get elements by class can get the element by a single class
+//OBJECT
 
 
 
-//PLAYING THE SOUND
-
-var sound = document.getElementById("audio1")
-
-
-
-function playSound(){
-    sound.currentTime = 0;
-    sound.play();
+var G = {
+    name: "arhaam",
+    age: "17 years and 3 months",
+    abilities: "will out work everyone and so on and so on",
 }
 
-document.getElementById("btn1").addEventListener("click" , playSound);
-
-
-//simply adding the play to the sound file 
+console.log(G.name , "and his age is" ,G.age)

@@ -677,6 +677,14 @@ ADDING OR REMOVING EVENT LISTNERS
     -it 
 
 
+OBJECT
+    -variable
+    -with number of properties
+    -these properties are variables are assoiciated with it
+
+    -va
+
+
 
         
 
