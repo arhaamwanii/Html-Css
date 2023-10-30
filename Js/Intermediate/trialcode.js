@@ -360,6 +360,32 @@
 //what basically goes on is that we have the pre-build fuctions which we then call using the calculator  function
 //"""SET(ONE , TWO)""" this basically becomes a function call for prebuilt functions that are going to called via CALCULATOR function
 
+//OBJECT
+
+
+
+// var G = {
+//     name: "arhaam",
+//     age: "17 years and 3 months",
+//     abilities: "will out work everyone and so on and so on",
+// }
+
+// console.log(G.name , "and his age is" ,G.age)
+
+// //OBJECT-FACTORY
+
+// function GcFactory(name, age, abilities) {
+//     this.name =  name;
+//     this.age = age;
+//     this.abilities = abilities;
+// }
+
+//  new GcFactory("tazeem" , 12 , "focus");
+
+
+// //it is necessary to create a variable as it is going to be the name of onject
+// //this new here makes a new input , object using the factory
+
 
 
 
