@@ -676,6 +676,8 @@ ADDING OR REMOVING EVENT LISTNERS
     -addEvenListner
     -it 
 
+    -we can listnen to KEYDOWN - 
+
 
 OBJECT
     -variable
@@ -694,7 +696,9 @@ OBJECT
     -CONCSTRUCTOR FUNCTION
     -they allow you to create multiple similar objects with the same properties and methods without duplicating the code for each object.
     
-    
+    -we can incorpotrate both a function and data in the object, but in case of a function we have to put the (); in case of data/properties you dont have to do nothing
+
+
         
 
     
