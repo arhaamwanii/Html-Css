@@ -715,6 +715,25 @@ it is a JS library
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 JQUERRY 
 
+SELECTING ELEMENT IN JQUERRY
+
+-document.querryselector    => $("h1");     
+=> to select a single element we need a use multiple selectors
+-when we trying to select all of the shit   =>  $("button")
+
+
+MANUPLATING STYLE IN JQUERRY
+
+-Adding css 
+=> first add .css
+=> then inside the ("property-name", "value of the property")
+
+-$("button").css("background-color" , "green");         this shit will change the background color of all the buttons to green
+
+
+
+
+
 
 
 
