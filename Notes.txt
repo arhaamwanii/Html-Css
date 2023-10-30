@@ -732,8 +732,24 @@ MANUPLATING STYLE IN JQUERRY
 
 -Adding Classes 
 $("h1").addClass("boom")  
-=> you simply 
+=> you simply just locate the element, then add ".addClass" (and then put in the name of the class you want to add)
 
+-ADDING MULTIPLE CLASSES
+just incluse them in the same bracket just put in a space between
+
+-check for classes
+
+-TEXT MANUPLATION
+
+//adding text
+$( ".one").text("how you doing brotheer")
+
+//adding innerHTML
+$("button").html("<em> how are you today</em>")
+$( ".one").text("how you doing brotheer")
+
+
+-ATRIBUTE MANUPLATION
 
 
 
