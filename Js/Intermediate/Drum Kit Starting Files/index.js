@@ -53,6 +53,9 @@ for( i = 0 ; i< numberOfBtns ; i++){
 document.getElementsByClassName("drum")[i].addEventListener("click" , showAlert);
 
 function showAlert(){
+    var audio = new Audio('sounds/tom-1.mp3')
+    
+    audio.play();
     
 }
 }
@@ -69,6 +72,8 @@ function showAlert(){
 
 var sound = document.getElementById("audio1")
 
+
+
 function playSound(){
     sound.currentTime = 0;
     sound.play();
@@ -77,3 +82,4 @@ function playSound(){
 document.getElementById("btn1").addEventListener("click" , playSound);
 
 
+//simply adding the play to the sound file 
