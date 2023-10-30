@@ -208,3 +208,13 @@ function makeSound(key){
 
     }
 }
+
+
+
+
+//ANIMATION
+
+
+function buttonAnimation(Currentkey){
+    
+}
