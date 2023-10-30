@@ -730,7 +730,7 @@ MANUPLATING STYLE IN JQUERRY
 
 -$("button").css("background-color" , "green");         this shit will change the background color of all the buttons to green
 
-
+-Adding Classes 
 
 
 
