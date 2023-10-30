@@ -141,7 +141,8 @@ function showAlert(){
 
     var buttonInnerHTML = this.innerHTML;
     
-    makeSound(buttonInnerHTML)
+    makeSound(buttonInnerHTML);
+    buttonAnimation(buttonInnerHTML);
 
     }
 }
@@ -154,6 +155,7 @@ function showAlert(){
 document.addEventListener('keydown', function(event){
     
     makeSound(event.key);
+    buttonAnimation(event.key);
 }) ;
 
 
@@ -215,6 +217,14 @@ function makeSound(key){
 //ANIMATION
 
 
-function buttonAnimation(Currentkey){
+function buttonAnimation(currentKey){
+    var activeButton = document.querySelector("." + currentKey);
+    activeButton.classList.add("pressed");
+
+    setTimeout(function(){
+        activeButton.classList.remove("pressed")
+    } , 100)
+
     
-}
+    }
+    
