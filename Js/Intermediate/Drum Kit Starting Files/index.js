@@ -225,11 +225,8 @@ function showAlert(){
 }
 
 
-// document.addEventListenet('keydown', function(ok){
-//     alert('lifes Good');
-// }) ;
+document.addEventListener('keydown', function(ok){
+    alert('lifes Good');
+}) ;
 
-document.addEventListener('keydown', function(ok) {
-    alert('ok');
-});
 
