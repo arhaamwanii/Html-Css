@@ -699,6 +699,10 @@ OBJECT
     -we can incorpotrate both a function and data in the object, but in case of a function we have to put the (); in case of data/properties you dont have to do nothing
 
 
+CALL BACK FUNCTION
+
+    -it basically waits for one thing to finish, then the inner function will take place
+    -
         
 
     
