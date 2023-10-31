@@ -792,15 +792,43 @@ it is faster to use this SHIT, it gives more control
 normal GUI hides Configuration files
 
 
+COMMANDS - 
+
+1. cd - change directory
+
+
+down
+-cd code/collective/bootstrap
+
+up 
+-"cd ~" it will send you back to the root directory
+
+2. ls - list
+this gives the list of all the files in that folder or directory
+
+3.mrdir - make directory
+-this is used to make a new directory inside the current folder(directory in GUI)
+
+
+4.touch
+-it is used to create a new file indside the directory
+
+5, open
+it is used to open/run 
+
+6.rm - remove
+using this command you can  delete
+
+7. pwd
+it tells you the path to the current directory
 
 
 
 
+                        REACT
 
-
-
-
-
+-front end framework
+-there are seme custom elements in this whic
 
  
 
