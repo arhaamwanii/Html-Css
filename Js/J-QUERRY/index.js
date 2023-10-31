@@ -26,3 +26,13 @@ $("button").html("<em> how are you today</em>")
 
 
 $( ".one").text("how you doing brotheer")
+
+
+//adding attributes     - ".attr"
+
+console.log($("img").attr("src" , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQphO1iGa3a8wJpd43zAbREvXa8q4DmAIKww&usqp=CAU"));
+
+console.log($("a").attr("href" , "https://yahoo.com"));
+
+
+

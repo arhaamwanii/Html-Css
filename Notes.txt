@@ -750,6 +750,9 @@ $( ".one").text("how you doing brotheer")
 
 
 -ATRIBUTE MANUPLATION
+    -$("img").attr("src", "https://yahoo.com");
+
+    -
 
 
 
