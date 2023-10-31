@@ -6,9 +6,11 @@ $("h1").css({
 })
 $("button").css("background-color" , "green");
 
+$("h1").addClass("blue")
+
 //ADDING CSS
 
-$("h1").addClass("boom")
+
 
 //checkign calsses   - gives back a boolein
 
@@ -34,5 +36,21 @@ console.log($("img").attr("src" , "https://encrypted-tbn0.gstatic.com/images?q=t
 
 console.log($("a").attr("href" , "https://yahoo.com"));
 
+//this shit printed all the classes of the given element
+console.log($("a").attr("class") )
 
+
+//ADDING ELEMENTS
+
+$("h1").before("<button> New </button>")
+$("h1").append("<button> New </button>")
+$("h1").prepend("<button> New </button>")
+$("h1").after("<button> New </button>")
+
+//EVENT LISTNERS
+
+$("h1").click(function(){
+    $("h1").css("color" , "purple")
+    $("img").attr("src" ,  "https://images.news18.com/ibnlive/uploads/2021/08/sun-photo.jpg")
+})
 
