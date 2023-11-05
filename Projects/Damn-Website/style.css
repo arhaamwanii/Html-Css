@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "urbanist", sans-serif;
+}
+
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primrary:#1c1c1c;
+    --bs-main-color: #fff;
+    --bs-primarary-color: #c6c6c6;
+    --secondary-color: #29a9fd;
+    --bs-supporting-color: #c850c0;
+
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'lexend deca', sans-serif;
+    color: var(--bs-dark-color);
+}
+
+h1{
+    font-size: 2.8rem;
+}
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}  
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none ;
+}
+/*hero section*/
+
+.hero-video--section{
+    max-width: 100%;
+    height: auto;
+    width: 30rem;
+    border-radius: 2rem;
+}
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+
+.hero-section .container{
+
+}
